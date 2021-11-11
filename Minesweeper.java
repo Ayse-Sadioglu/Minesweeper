@@ -124,15 +124,15 @@ public class Minesweeper {
 
     public static void opencell(int row, int col, String[][] mineboard, String[][] shapeboard) {
 
-        if (shapeboard[row][col] == "F ") {// flagse çık
+        if (shapeboard[row][col] == "F ") {
             return;
-        } else if (shapeboard[row][col] != "o ") {// boş değilse çık
+        } else if (shapeboard[row][col] != "o ") {
             return;
-        } else if (mineboard[row][col] == "mine ") {// mayın varsa çık
+        } else if (mineboard[row][col] == "mine ") {
             return;
         }
 
-        else if (isValid(row, col, mineboard) != true) {// index valid değilse çık
+        else if (isValid(row, col, mineboard) != true) {
             return;
 
         }

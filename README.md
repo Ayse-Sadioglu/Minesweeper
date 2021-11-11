@@ -1,1 +1,1 @@
-# Minesweeper
+# Simple minesweeper game in java
